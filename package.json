@@ -1,0 +1,22 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DistantDig/react-portfolio.git"
+  },
+  "author": "DistantDig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DistantDig/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/DistantDig/react-portfolio#readme",
+  "dependencies": {
+    "vite": "^5.0.4"
+  }
+}
