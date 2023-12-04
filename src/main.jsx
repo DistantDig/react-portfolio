@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
 import About from './pages/About';
+import Projects from './pages/Projects';
 
 const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <About/>,
+            },
+            {
+                path: '/Projects',
+                element: <Projects/>,
             }
         ]
     }
