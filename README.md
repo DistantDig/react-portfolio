@@ -4,7 +4,7 @@
 
 This is the portfolio of James Waller Jr (AKA DistantDig). I wrote all of it myself in react javascript, and included a bit of information about myself as well as a few links to my projects, socials or resume. This project is designed to hold a collection of my own work and compile all of my accomplishments in a single place. While it is still simplistic for now I plan to redesign as time goes on so that it is always an accurate representation of my goals, my projects and my skill level. I'm always looking to grow in my skills, so any contribution or constructive criticism is appreciated!
 
-<!-- A link to the deployed project: https://distantdig.github.io/portfolio/ -->
+A link to the deployed project: https://main--inquisitive-bublanina-403889.netlify.app/
 
 ## Table of Contents
 
