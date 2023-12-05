@@ -3,8 +3,8 @@ import Nav from './Nav';
 function Header() {
 
     return (
-        <header>
-            <h1>James Waller Jr.</h1>
+        <header className='bg-dark text-white'>
+            <h1 className='display-1'>James Waller Jr.</h1>
             <Nav/>
         </header>
     );

@@ -6,7 +6,7 @@ function App() {
     return (
         <>
             <Header/>
-            <main className='d-flex flex-column'>
+            <main className='d-block p-2 text-black' style={{fontSize:'1.25em'}}>
                 <Outlet/>
             </main>
             <Footer/>

@@ -53,9 +53,9 @@ export default function Contact() {
 
     return (
       <div className='constainer'>
-        <h2>Contact Me!</h2>
+        <h2 className='display-3 text-center'>Contact Me!</h2>
 
-        <form className='form' onSubmit={handleFormSubmit}>
+        <form className='form p-5' onSubmit={handleFormSubmit}>
             <div className='mb-3'>
                 <label htmlFor='userName' className='form-label'>Name:</label>
                 <input

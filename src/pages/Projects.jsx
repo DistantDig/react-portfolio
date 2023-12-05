@@ -41,17 +41,17 @@ export default function Projects() {
     }
 
     return (
-      <div>
-        <h2>My Work!</h2>
+      <div style={{fontSize:'1.25em'}}>
+        <h2 className='display-3 text-center'>My Work!</h2>
 
-        <div className="row row-cols-1 row-cols-md-1 g-4">
+        <div className="row row-cols-1 row-cols-md-1 my-auto px-5">
             <div className="col col-sm-6 mb-3 mb-sm-0">
 
                 <Card {...projects.immersiveJungles}/>
 
             </div>
         </div>
-        <div className="row row-cols-1 row-cols-md-2 g-4">
+        <div className="row row-cols-1 row-cols-md-2 g-4 my-auto px-5">
             <div className="col col-sm-6 mb-3 mb-sm-0">
 
                 <Card {...projects.dndOrigins}/>
