@@ -1,7 +1,5 @@
 function Card(project) {
 
-    // const project = props.projects;
-
     return (
         <div className="card text-center">
 
