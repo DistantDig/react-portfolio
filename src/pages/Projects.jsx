@@ -79,6 +79,11 @@ export default function Projects() {
                 <Card {...projects.gymFlow}/>
 
             </div>
+            <div className="col col-sm-6 mb-3 mb-sm-0">
+
+                <Card {...projects.readZen}/>
+
+            </div>
         </div>
       </div>
     );
