@@ -29,7 +29,7 @@ export default function Projects() {
             description: "Website application designed to search and evaluate articles on the likelihood of being written by AI.",
             imageName: "AId_logo.png",
             imageAlt: "AId Logo",
-            projectLink: "https://stellyes.github.io/content-AId"
+            projectLink: "https://github.com/stellyes/content-AId"
         },
         gymFlow: {
             title: "Gym Flow",
