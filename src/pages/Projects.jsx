@@ -33,10 +33,17 @@ export default function Projects() {
         },
         gymFlow: {
             title: "Gym Flow",
-            description: "Website application of a workout-theme social media app for creating and sharing workout routines.",
+            description: "Website application of a workout-themed social media app for creating and sharing workout routines.",
             imageName: "gym_flow_logo.png",
             imageAlt: "Gym Flow Logo",
             projectLink: "https://github.com/d-a-v-i-d-w-r-i-g-h-t/gym-flow"
+        },
+        readZen: {
+            title: "ReadZen",
+            description: "Website application for generating and sharing READMEs for project developers.",
+            imageName: "readzen_logo.png",
+            imageAlt: "ReadZen Logo",
+            projectLink: "https://github.com/Migsrkrd/ReadZen"
         }
     }
 
