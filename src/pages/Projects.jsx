@@ -29,14 +29,21 @@ export default function Projects() {
             description: "Website application designed to search and evaluate articles on the likelihood of being written by AI.",
             imageName: "AId_logo.png",
             imageAlt: "AId Logo",
-            projectLink: "https://stellyes.github.io/content-AId"
+            projectLink: "https://github.com/stellyes/content-AId"
         },
         gymFlow: {
             title: "Gym Flow",
-            description: "Website application of a workout-theme social media app for creating and sharing workout routines.",
+            description: "Website application of a workout-themed social media app for creating and sharing workout routines.",
             imageName: "gym_flow_logo.png",
             imageAlt: "Gym Flow Logo",
             projectLink: "https://github.com/d-a-v-i-d-w-r-i-g-h-t/gym-flow"
+        },
+        readZen: {
+            title: "ReadZen",
+            description: "Website application for generating and sharing READMEs for project developers.",
+            imageName: "readzen_logo.png",
+            imageAlt: "ReadZen Logo",
+            projectLink: "https://github.com/Migsrkrd/ReadZen"
         }
     }
 
@@ -70,6 +77,11 @@ export default function Projects() {
             <div className="col col-sm-6 mb-3 mb-sm-0">
 
                 <Card {...projects.gymFlow}/>
+
+            </div>
+            <div className="col col-sm-6 mb-3 mb-sm-0">
+
+                <Card {...projects.readZen}/>
 
             </div>
         </div>
