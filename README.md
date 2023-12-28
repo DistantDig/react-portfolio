@@ -22,7 +22,7 @@ My portfolio has several of my projects listed as well as some information about
 
 Other than my projects, my portfolio has several links on the page that should prove useful. A link to each section is included at the top of the page for your convenience and my practice. You should find a page for a short description about me, a contact form (which currently does not send information anywhere), and a resume tab for viewing and downloading my work history and skills.
 
-![Screenshot of Dig's DnD Origins download page with 'Source' tab circled](/assets/images/guide_to_github.png)
+![Screenshot of Dig's DnD Origins download page with 'Source' tab circled](/public/assets/images/guide_to_github.png)
 
 ## Credits
 
