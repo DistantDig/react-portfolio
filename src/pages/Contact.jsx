@@ -1,6 +1,10 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+    const form = useRef();
+    const [formSubmitted, setFormSubmitted] = useState(false);
+
     const [userName, setUserName] = useState('');
     const [userEmail, setUserEmail] = useState('');
     const [userMessage, setUserMessage] = useState('');
@@ -42,6 +46,14 @@ export default function Contact() {
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
+        emailjs.sendForm('portfolio_service', 'portfolio_contact_form', form.current, '28hEzU83VntCS6YBE')
+      .then((result) => {
+          console.log(result.text);
+          setFormSubmitted(true);
+      }, (error) => {
+          console.log(error.text);
+      });
+
         setUserName('');
         setUserEmail('');
         setUserMessage('');
@@ -55,7 +67,10 @@ export default function Contact() {
       <div className='constainer'>
         <h2 className='display-3 text-center'>Contact Me!</h2>
 
-        <form className='form p-5' onSubmit={handleFormSubmit}>
+        <form className='form p-5' ref={form} onSubmit={handleFormSubmit}>
+        <div className={formSubmitted ? 'alert alert-success visible' : 'invisible '}>
+            Email Sent!
+        </div>
             <div className='mb-3'>
                 <label htmlFor='userName' className='form-label'>Name:</label>
                 <input
@@ -96,8 +111,11 @@ export default function Contact() {
                     className={validMessage ? 'form-control' : 'form-control is-invalid'}
                     style= {{height: '200px'}}
                 />
-                <div className="invalid-feedback" style={{display: validMessage ? 'none' : 'inline'}}>
+                <div className='invalid-feedback' style={{display: validMessage ? 'none' : 'inline'}}>
                     Please do not leave empty.
+                </div>
+                <div>
+                    <button className='btn btn-primary my-2' type='submit' value='Send'>Submit</button>
                 </div>
             </div>
         </form>
