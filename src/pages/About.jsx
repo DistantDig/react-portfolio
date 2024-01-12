@@ -53,7 +53,7 @@ export default function About() {
 
               <h3>Let's Connect</h3>
               <p>
-                If you think I could be a great addition to your business then let's connect. You can head over to my Contact section or feel free to email me directly 
+                If you think I could be a great addition to your business then let's connect. You can head over to my <a href='/Contact'>Contact section</a> or feel free to email me directly 
                 at jameswaller711@gmail.com with your name and a message describing your interest.
               </p>
             </div>
