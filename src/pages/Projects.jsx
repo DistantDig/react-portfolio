@@ -10,6 +10,20 @@ export default function Projects() {
             imageAlt: "Immersive Jungles Logo",
             projectLink: "https://www.curseforge.com/minecraft/mc-mods/immersive-jungles"
         },
+        readZen: {
+            title: "ReadZen",
+            description: "Website application for generating and sharing READMEs for project developers.",
+            imageName: "readzen_logo.png",
+            imageAlt: "ReadZen Logo",
+            projectLink: "https://github.com/Migsrkrd/ReadZen"
+        },
+        gymFlow: {
+            title: "Gym Flow",
+            description: "Website application of a workout-themed social media app for creating and sharing workout routines.",
+            imageName: "gym_flow_logo.png",
+            imageAlt: "Gym Flow Logo",
+            projectLink: "https://github.com/d-a-v-i-d-w-r-i-g-h-t/gym-flow"
+        },
         dndOrigins: {
             title: "Dig's DnD Origins Mod",
             description: "Minecraft mod coded in Java. I made this one on my own and is my most popular project currently.",
@@ -23,28 +37,14 @@ export default function Projects() {
             imageName: "tree_lib_logo.png",
             imageAlt: "TreeLib Logo",
             projectLink: "https://www.curseforge.com/minecraft/mc-mods/tree-lib"
-        },
-        contentAId: {
-            title: "Content AId",
-            description: "Website application designed to search and evaluate articles on the likelihood of being written by AI.",
-            imageName: "AId_logo.png",
-            imageAlt: "AId Logo",
-            projectLink: "https://github.com/stellyes/content-AId"
-        },
-        gymFlow: {
-            title: "Gym Flow",
-            description: "Website application of a workout-themed social media app for creating and sharing workout routines.",
-            imageName: "gym_flow_logo.png",
-            imageAlt: "Gym Flow Logo",
-            projectLink: "https://github.com/d-a-v-i-d-w-r-i-g-h-t/gym-flow"
-        },
-        readZen: {
-            title: "ReadZen",
-            description: "Website application for generating and sharing READMEs for project developers.",
-            imageName: "readzen_logo.png",
-            imageAlt: "ReadZen Logo",
-            projectLink: "https://github.com/Migsrkrd/ReadZen"
         }
+        // contentAId: {
+        //     title: "Content AId",
+        //     description: "Website application designed to search and evaluate articles on the likelihood of being written by AI.",
+        //     imageName: "AId_logo.png",
+        //     imageAlt: "AId Logo",
+        //     projectLink: "https://github.com/stellyes/content-AId"
+        // }
     }
 
     return (
@@ -59,31 +59,28 @@ export default function Projects() {
             </div>
         </div>
         <div className="row row-cols-1 row-cols-md-2 g-4 my-auto px-5">
-            <div className="col col-sm-6 mb-3 mb-sm-0">
 
+            <div className="col col-sm-6 mb-3 mb-sm-0">
+                <Card {...projects.readZen}/>
+            </div>
+
+            <div className="col col-sm-6 mb-3 mb-sm-0">
+                <Card {...projects.gymFlow}/>
+            </div>
+
+            <div className="col col-sm-6 mb-3 mb-sm-0">
                 <Card {...projects.dndOrigins}/>
-
             </div>
-            <div className="col col-sm-6 mb-3 mb-sm-0">
 
+            <div className="col col-sm-6 mb-3 mb-sm-0">
                 <Card {...projects.treeLib}/>
-
             </div>
-            <div className="col col-sm-6 mb-3 mb-sm-0">
+
+            {/* <div className="col col-sm-6 mb-3 mb-sm-0">
 
                 <Card {...projects.contentAId}/>
 
-            </div>
-            <div className="col col-sm-6 mb-3 mb-sm-0">
-
-                <Card {...projects.gymFlow}/>
-
-            </div>
-            <div className="col col-sm-6 mb-3 mb-sm-0">
-
-                <Card {...projects.readZen}/>
-
-            </div>
+            </div> */}
         </div>
       </div>
     );
