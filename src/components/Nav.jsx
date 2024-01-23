@@ -8,12 +8,12 @@ function Nav() {
             <ul className=' nav nav-tabs nav-justified'>
                 <li className='nav-item'>
                     <Link to='/' className={currentPage === '/' ? 'nav-link active' : 'nav-link text-white'}>
-                        About
+                        Projects
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/Projects' className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link text-white'}>
-                        Projects
+                    <Link to='/About' className={currentPage === '/About' ? 'nav-link active' : 'nav-link text-white'}>
+                        About
                     </Link>
                 </li>
                 <li className='nav-item'>
