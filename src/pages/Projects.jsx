@@ -53,7 +53,7 @@ export default function Projects() {
     }
 
     return (
-      <div className="pb-5" style={{fontSize:'1.25em'}}>
+      <div style={{fontSize:'1.25em', paddingBottom: '75px'}}>
         <h2 className='display-3 text-center'>My Work!</h2>
 
         <div className="row row-cols-1 row-cols-md-1 px-5">

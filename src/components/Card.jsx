@@ -1,7 +1,7 @@
 function Card(project) {
 
     return (
-        <div className="card text-center pt-4" style={{minHeight: '500px'}}>
+        <div className="card text-center pt-4" style={{height: '600px'}}>
 
             <img className="card-img-top mx-auto d-block" style={{ maxWidth: '80%', width: 'auto', height: '40%'}} src={`../../assets/images/${project.imageName}`} alt={`${project.imageAlt}`}/>
             

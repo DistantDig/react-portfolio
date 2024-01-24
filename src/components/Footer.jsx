@@ -1,7 +1,7 @@
 function Footer() {
 
     return (
-        <footer className="fixed-bottom bg-dark">
+        <footer className="fixed-bottom bg-dark" style={{ maxHeight: '75px' }}>
             <ul className="list-group list-group-horizontal justify-content-center">
                 <li className="list-group-item m-3 rounded">
                     <a className="violet-link" target="#" href="https://github.com/DistantDig">
