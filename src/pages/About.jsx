@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <div className="pb-5">
+      <div style={{paddingBottom: '75px'}}>
         <h2 className='display-3 text-center'>About Me!</h2>
         <div className="card mx-5 p-3">
           <div className="row">
