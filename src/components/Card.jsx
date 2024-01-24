@@ -1,9 +1,9 @@
 function Card(project) {
 
     return (
-        <div className="card text-center pt-4" style={{height: '500px'}}>
+        <div className="card text-center pt-4" style={{minHeight: '500px'}}>
 
-            <img className="card-img-top mx-auto d-block" style={{ width: 'auto', height: '40%'}} src={`../../assets/images/${project.imageName}`} alt={`${project.imageAlt}`}/>
+            <img className="card-img-top mx-auto d-block" style={{ maxWidth: '80%', width: 'auto', height: '40%'}} src={`../../assets/images/${project.imageName}`} alt={`${project.imageAlt}`}/>
             
             <div className="card-body d-flex flex-column justify-content-evenly">
                 <h3 className="card-title align-self-center">{project.title}</h3>
