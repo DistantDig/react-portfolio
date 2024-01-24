@@ -115,7 +115,7 @@ export default function Contact() {
                     Please do not leave empty.
                 </div>
                 <div>
-                    <button className='btn btn-primary my-2' type='submit' value='Send'>Submit</button>
+                    <button className='btn bg-dark my-2 text-white' type='submit' value='Send'>Submit</button>
                 </div>
             </div>
         </form>

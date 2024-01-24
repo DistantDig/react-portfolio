@@ -6,7 +6,7 @@ function App() {
     return (
         <>
             <Header/>
-            <main className='d-block p-2 text-black' style={{fontSize:'1.25em'}}>
+            <main className='d-block py-4 text-black' style={{fontSize:'1.25em', paddingBottom: '100px'}}>
                 <Outlet/>
             </main>
             <Footer/>
