@@ -53,10 +53,10 @@ export default function Projects() {
     }
 
     return (
-      <div style={{fontSize:'1.25em'}}>
+      <div className="pb-5" style={{fontSize:'1.25em'}}>
         <h2 className='display-3 text-center'>My Work!</h2>
 
-        <div className="row row-cols-1 row-cols-md-1 my-auto px-5">
+        <div className="row row-cols-1 row-cols-md-1 px-5">
             <div className="col col-sm-6 mb-3 mb-sm-0">
 
                 <Card {...projects.immersiveJungles}/>
