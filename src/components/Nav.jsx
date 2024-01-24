@@ -1,11 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
 
-function Nav() {
+function Nav(props) {
     const currentPage = useLocation().pathname;
 
     return (
-        <nav style={{fontSize:'1.5em'}}>
-            <ul className=' nav nav-tabs nav-justified'>
+        <nav className={props.navVisible ? 'collapse navbar-collapse bg-dark' : 'collapse navbar-collapse bg-dark show'} id='navbarSupportedContent' style={{fontSize:'1.5em'}}>
+            <ul className='nav nav-tabs d-flex ms-auto'>
                 <li className='nav-item'>
                     <Link to='/' className={currentPage === '/' ? 'nav-link active' : 'nav-link text-white'}>
                         Projects
